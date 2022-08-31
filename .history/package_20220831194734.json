@@ -2,7 +2,7 @@
   "name": "a01-yran-chen",
   "version": "1.0.0",
   "description": "This assignment will help you get started working with Node.js by hacking your way through creating a webserver from scratch.",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "test": "node server.js --port=5555"
   },
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "Yran-Chen",
-  "license": "GPL-3.0-or-later",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/comp426-2022-fall/a01-Yran-Chen/issues"
   },
