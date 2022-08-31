@@ -3,10 +3,13 @@ const fs = require('fs')
 const hostname = '127.0.0.1'
 
 const minimist = require('minimist');
+
 var args = minimist(process.argv);
+
 const port = args.port || 3000;
 
 const server = http.createServer((req, res) => {
+
     var data;
         try {
             data = fs.readFileSync('./public/index.html', 'utf8');
